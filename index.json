@@ -10,7 +10,7 @@
       "version": "1.0.0",
       "icon": null,
       "screenshot": null,
-      "repo_url": "https://github.com/waybar-modules/weather-wttr",
+      "repo_url": "https://github.com/jtaw5649/waybar-weather-wttr",
       "downloads": 15420,
       "tags": ["weather", "forecast", "temperature"]
     },
@@ -23,7 +23,7 @@
       "version": "1.0.0",
       "icon": null,
       "screenshot": null,
-      "repo_url": "https://github.com/waybar-modules/cpu-temp",
+      "repo_url": "https://github.com/jtaw5649/waybar-cpu-temp",
       "downloads": 8932,
       "tags": ["cpu", "temperature", "hardware", "monitoring"]
     },
@@ -36,7 +36,7 @@
       "version": "1.0.0",
       "icon": null,
       "screenshot": null,
-      "repo_url": "https://github.com/waybar-modules/network-speed",
+      "repo_url": "https://github.com/jtaw5649/waybar-network-speed",
       "downloads": 12150,
       "tags": ["network", "bandwidth", "speed", "monitoring"]
     },
@@ -49,7 +49,7 @@
       "version": "1.0.0",
       "icon": null,
       "screenshot": null,
-      "repo_url": "https://github.com/waybar-modules/spotify-player",
+      "repo_url": "https://github.com/jtaw5649/waybar-spotify-player",
       "downloads": 22300,
       "tags": ["spotify", "music", "media", "player"]
     },
@@ -62,7 +62,7 @@
       "version": "1.0.0",
       "icon": null,
       "screenshot": null,
-      "repo_url": "https://github.com/waybar-modules/battery-status",
+      "repo_url": "https://github.com/jtaw5649/waybar-battery-status",
       "downloads": 18700,
       "tags": ["battery", "power", "laptop", "charging"]
     },
@@ -75,7 +75,7 @@
       "version": "1.0.0",
       "icon": null,
       "screenshot": null,
-      "repo_url": "https://github.com/waybar-modules/disk-usage",
+      "repo_url": "https://github.com/jtaw5649/waybar-disk-usage",
       "downloads": 6420,
       "tags": ["disk", "storage", "space", "monitoring"]
     },
