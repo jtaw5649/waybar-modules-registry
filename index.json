@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "modules": [
     {
       "uuid": "weather-wttr@community",
@@ -7,11 +7,12 @@
       "description": "Display current weather conditions using wttr.in API with customizable location and format",
       "author": "community",
       "category": "weather",
+      "version": "1.0.0",
       "icon": null,
       "screenshot": null,
       "repo_url": "https://github.com/waybar-modules/weather-wttr",
       "downloads": 15420,
-      "waybar_versions": ["0.10", "0.11"]
+      "tags": ["weather", "forecast", "temperature"]
     },
     {
       "uuid": "cpu-temp@system",
@@ -19,11 +20,12 @@
       "description": "Monitor CPU temperature with color-coded warnings and tooltips",
       "author": "system",
       "category": "hardware",
+      "version": "1.0.0",
       "icon": null,
       "screenshot": null,
       "repo_url": "https://github.com/waybar-modules/cpu-temp",
       "downloads": 8932,
-      "waybar_versions": ["0.10", "0.11"]
+      "tags": ["cpu", "temperature", "hardware", "monitoring"]
     },
     {
       "uuid": "network-speed@network",
@@ -31,11 +33,12 @@
       "description": "Real-time upload/download speed monitor with graph tooltip",
       "author": "network",
       "category": "network",
+      "version": "1.0.0",
       "icon": null,
       "screenshot": null,
       "repo_url": "https://github.com/waybar-modules/network-speed",
       "downloads": 12150,
-      "waybar_versions": ["0.10", "0.11"]
+      "tags": ["network", "bandwidth", "speed", "monitoring"]
     },
     {
       "uuid": "spotify-player@media",
@@ -43,11 +46,12 @@
       "description": "Control Spotify playback with track info, album art, and media controls",
       "author": "media",
       "category": "media",
+      "version": "1.0.0",
       "icon": null,
       "screenshot": null,
       "repo_url": "https://github.com/waybar-modules/spotify-player",
       "downloads": 22300,
-      "waybar_versions": ["0.10", "0.11"]
+      "tags": ["spotify", "music", "media", "player"]
     },
     {
       "uuid": "battery-status@power",
@@ -55,11 +59,12 @@
       "description": "Advanced battery indicator with time remaining, health status, and charging animation",
       "author": "power",
       "category": "system",
+      "version": "1.0.0",
       "icon": null,
       "screenshot": null,
       "repo_url": "https://github.com/waybar-modules/battery-status",
       "downloads": 18700,
-      "waybar_versions": ["0.10", "0.11"]
+      "tags": ["battery", "power", "laptop", "charging"]
     },
     {
       "uuid": "disk-usage@storage",
@@ -67,23 +72,25 @@
       "description": "Monitor disk space usage with customizable mount points and warning thresholds",
       "author": "storage",
       "category": "hardware",
+      "version": "1.0.0",
       "icon": null,
       "screenshot": null,
       "repo_url": "https://github.com/waybar-modules/disk-usage",
       "downloads": 6420,
-      "waybar_versions": ["0.10", "0.11"]
+      "tags": ["disk", "storage", "space", "monitoring"]
     },
     {
       "uuid": "test-module@dev",
       "name": "Test Module",
-      "description": "Test module for verifying waybar-manager config merging and CSS injection",
+      "description": "Test module for verifying waybar-manager config merging, CSS injection, and preferences",
       "author": "dev",
       "category": "system",
+      "version": "1.0.0",
       "icon": null,
       "screenshot": null,
       "repo_url": "https://github.com/jtaw5649/waybar-test-module",
       "downloads": 0,
-      "waybar_versions": []
+      "tags": ["test", "development"]
     }
   ],
   "categories": {
