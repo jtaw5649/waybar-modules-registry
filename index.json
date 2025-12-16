@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "modules": [
+    {
+      "uuid": "weather-wttr@community",
+      "name": "Weather (wttr.in)",
+      "description": "Display current weather conditions using wttr.in API with customizable location and format",
+      "author": "community",
+      "category": "weather",
+      "icon": null,
+      "screenshot": null,
+      "repo_url": "https://github.com/waybar-modules/weather-wttr",
+      "downloads": 15420,
+      "waybar_versions": ["0.10", "0.11"]
+    },
+    {
+      "uuid": "cpu-temp@system",
+      "name": "CPU Temperature",
+      "description": "Monitor CPU temperature with color-coded warnings and tooltips",
+      "author": "system",
+      "category": "hardware",
+      "icon": null,
+      "screenshot": null,
+      "repo_url": "https://github.com/waybar-modules/cpu-temp",
+      "downloads": 8932,
+      "waybar_versions": ["0.10", "0.11"]
+    },
+    {
+      "uuid": "network-speed@network",
+      "name": "Network Speed",
+      "description": "Real-time upload/download speed monitor with graph tooltip",
+      "author": "network",
+      "category": "network",
+      "icon": null,
+      "screenshot": null,
+      "repo_url": "https://github.com/waybar-modules/network-speed",
+      "downloads": 12150,
+      "waybar_versions": ["0.10", "0.11"]
+    },
+    {
+      "uuid": "spotify-player@media",
+      "name": "Spotify Player",
+      "description": "Control Spotify playback with track info, album art, and media controls",
+      "author": "media",
+      "category": "media",
+      "icon": null,
+      "screenshot": null,
+      "repo_url": "https://github.com/waybar-modules/spotify-player",
+      "downloads": 22300,
+      "waybar_versions": ["0.10", "0.11"]
+    },
+    {
+      "uuid": "battery-status@power",
+      "name": "Battery Status",
+      "description": "Advanced battery indicator with time remaining, health status, and charging animation",
+      "author": "power",
+      "category": "system",
+      "icon": null,
+      "screenshot": null,
+      "repo_url": "https://github.com/waybar-modules/battery-status",
+      "downloads": 18700,
+      "waybar_versions": ["0.10", "0.11"]
+    },
+    {
+      "uuid": "disk-usage@storage",
+      "name": "Disk Usage",
+      "description": "Monitor disk space usage with customizable mount points and warning thresholds",
+      "author": "storage",
+      "category": "hardware",
+      "icon": null,
+      "screenshot": null,
+      "repo_url": "https://github.com/waybar-modules/disk-usage",
+      "downloads": 6420,
+      "waybar_versions": ["0.10", "0.11"]
+    }
+  ],
+  "categories": {
+    "weather": {
+      "id": "weather",
+      "name": "Weather",
+      "icon": "weather-clear-symbolic"
+    },
+    "hardware": {
+      "id": "hardware",
+      "name": "Hardware",
+      "icon": "computer-symbolic"
+    },
+    "network": {
+      "id": "network",
+      "name": "Network",
+      "icon": "network-wireless-symbolic"
+    },
+    "media": {
+      "id": "media",
+      "name": "Media",
+      "icon": "multimedia-player-symbolic"
+    },
+    "system": {
+      "id": "system",
+      "name": "System",
+      "icon": "preferences-system-symbolic"
+    }
+  }
+}
