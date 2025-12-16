@@ -72,6 +72,18 @@
       "repo_url": "https://github.com/waybar-modules/disk-usage",
       "downloads": 6420,
       "waybar_versions": ["0.10", "0.11"]
+    },
+    {
+      "uuid": "test-module@dev",
+      "name": "Test Module",
+      "description": "Test module for verifying waybar-manager config merging and CSS injection",
+      "author": "dev",
+      "category": "system",
+      "icon": null,
+      "screenshot": null,
+      "repo_url": "https://github.com/jtaw5649/waybar-test-module",
+      "downloads": 0,
+      "waybar_versions": []
     }
   ],
   "categories": {
