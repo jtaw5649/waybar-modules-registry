@@ -1,11 +1,11 @@
 # Waybar Modules Registry
 
-This repository hosts the module registry for [Waybar Manager](https://github.com/jtaw/waybar-manager).
+This repository hosts the module registry for [Waybar Manager](https://github.com/jtaw5649/waybar-manager).
 
 ## Registry URL
 
 ```
-https://<username>.github.io/waybar-modules-registry/index.json
+https://jtaw5649.github.io/waybar-modules-registry/index.json
 ```
 
 ## Adding a Module
