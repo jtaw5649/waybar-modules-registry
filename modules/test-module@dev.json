@@ -1,0 +1,13 @@
+{
+  "uuid": "test-module@dev",
+  "name": "Test Module",
+  "description": "Test module for verifying waybar-manager config merging, CSS injection, and preferences",
+  "author": "dev",
+  "category": "system",
+  "version": "1.0.0",
+  "icon": null,
+  "screenshot": null,
+  "repo_url": "https://github.com/jtaw5649/waybar-test-module",
+  "downloads": 0,
+  "tags": ["test", "development"]
+}

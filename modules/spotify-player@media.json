@@ -1,0 +1,13 @@
+{
+  "uuid": "spotify-player@media",
+  "name": "Spotify Player",
+  "description": "Control Spotify playback with track info, album art, and media controls",
+  "author": "media",
+  "category": "media",
+  "version": "1.0.0",
+  "icon": null,
+  "screenshot": null,
+  "repo_url": "https://github.com/jtaw5649/waybar-spotify-player",
+  "downloads": 22300,
+  "tags": ["spotify", "music", "media", "player"]
+}

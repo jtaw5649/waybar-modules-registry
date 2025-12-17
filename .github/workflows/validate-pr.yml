@@ -1,0 +1,26 @@
+name: Validate Module Submission
+
+on:
+  pull_request:
+    paths:
+      - 'modules/*.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate modules
+        run: python3 scripts/validate.py
+
+      - name: Check JSON formatting
+        run: |
+          for f in modules/*.json; do
+            python3 -c "import json; json.load(open('$f'))" || exit 1
+          done

@@ -1,0 +1,13 @@
+{
+  "uuid": "weather-wttr@community",
+  "name": "Weather (wttr.in)",
+  "description": "Display current weather conditions using wttr.in API with customizable location and format",
+  "author": "community",
+  "category": "weather",
+  "version": "1.0.0",
+  "icon": null,
+  "screenshot": null,
+  "repo_url": "https://github.com/jtaw5649/waybar-weather-wttr",
+  "downloads": 15420,
+  "tags": ["weather", "forecast", "temperature"]
+}

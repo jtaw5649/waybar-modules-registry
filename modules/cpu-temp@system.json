@@ -1,0 +1,13 @@
+{
+  "uuid": "cpu-temp@system",
+  "name": "CPU Temperature",
+  "description": "Monitor CPU temperature with color-coded warnings and tooltips",
+  "author": "system",
+  "category": "hardware",
+  "version": "1.0.0",
+  "icon": null,
+  "screenshot": null,
+  "repo_url": "https://github.com/jtaw5649/waybar-cpu-temp",
+  "downloads": 8932,
+  "tags": ["cpu", "temperature", "hardware", "monitoring"]
+}

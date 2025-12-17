@@ -1,28 +1,49 @@
 # Waybar Modules Registry
 
-> **DEPRECATED**: This repository is deprecated. The module registry has moved to a Cloudflare Workers API with D1 database.
->
-> **New API**: https://waybar-registry-api.jtaw.workers.dev
->
-> See [waybar-registry-api](https://github.com/jtaw5649/waybar-registry-api) for the new implementation.
+The official module registry for [Waybar Manager](https://github.com/jtaw5649/waybar-manager).
 
----
+## Submitting a Module
 
-This repository previously hosted the module registry for [Waybar Manager](https://github.com/jtaw5649/waybar-manager).
+1. Fork this repository
+2. Create a JSON file in `modules/` named `{uuid}.json`
+3. Submit a pull request
 
-## Migration Notice
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions.
 
-All module data has been migrated to the new API. The static `index.json` file in this repository is no longer maintained.
+## API
 
-### New API Endpoints
+Modules are served via Cloudflare Workers API:
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/v1/modules` | List all modules |
-| GET | `/api/v1/modules/:uuid` | Get a specific module |
-| GET | `/api/v1/modules/search?q=&category=` | Search modules |
-| GET | `/api/v1/categories` | List all categories |
+```
+https://waybar-registry-api.jtaw.workers.dev/api/v1/modules
+```
 
-### Submitting a Module
+| Endpoint | Description |
+|----------|-------------|
+| `GET /api/v1/modules` | List all modules |
+| `GET /api/v1/modules/:uuid` | Get single module |
+| `GET /api/v1/modules/search?q=&category=` | Search modules |
+| `GET /api/v1/categories` | List categories |
 
-To submit a new module to the registry, please open an issue on [waybar-registry-api](https://github.com/jtaw5649/waybar-registry-api/issues).
+## Module Format
+
+```json
+{
+  "uuid": "your-module@namespace",
+  "name": "Your Module Name",
+  "description": "Brief description (10-500 chars)",
+  "author": "your-username",
+  "category": "system",
+  "version": "1.0.0",
+  "repo_url": "https://github.com/you/your-module",
+  "tags": ["keyword1", "keyword2"]
+}
+```
+
+### Valid Categories
+
+`system` `hardware` `network` `audio` `power` `time` `workspace` `window` `tray` `weather` `productivity` `media` `custom`
+
+## License
+
+See [LICENSE](LICENSE).
