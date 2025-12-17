@@ -1,59 +1,28 @@
 # Waybar Modules Registry
 
-This repository hosts the module registry for [Waybar Manager](https://github.com/jtaw5649/waybar-manager).
+> **DEPRECATED**: This repository is deprecated. The module registry has moved to a Cloudflare Workers API with D1 database.
+>
+> **New API**: https://waybar-registry-api.jtaw.workers.dev
+>
+> See [waybar-registry-api](https://github.com/jtaw5649/waybar-registry-api) for the new implementation.
 
-## Registry URL
+---
 
-```
-https://jtaw5649.github.io/waybar-modules-registry/index.json
-```
+This repository previously hosted the module registry for [Waybar Manager](https://github.com/jtaw5649/waybar-manager).
 
-## Adding a Module
+## Migration Notice
 
-To add your module to the registry, submit a PR with an entry in `index.json`:
+All module data has been migrated to the new API. The static `index.json` file in this repository is no longer maintained.
 
-```json
-{
-  "uuid": "your-module@author",
-  "name": "Your Module Name",
-  "description": "Brief description of what your module does",
-  "author": "your-username",
-  "category": "system|hardware|network|media|weather",
-  "version": "1.0.0",
-  "icon": null,
-  "screenshot": "https://url-to-screenshot.png",
-  "repo_url": "https://github.com/user/repo",
-  "downloads": 0,
-  "tags": ["keyword1", "keyword2"]
-}
-```
+### New API Endpoints
 
-### Required Fields
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/v1/modules` | List all modules |
+| GET | `/api/v1/modules/:uuid` | Get a specific module |
+| GET | `/api/v1/modules/search?q=&category=` | Search modules |
+| GET | `/api/v1/categories` | List all categories |
 
-| Field | Description |
-|-------|-------------|
-| `uuid` | Unique identifier in format `module-name@namespace` |
-| `name` | Human-readable display name |
-| `description` | Brief description of functionality |
-| `author` | Author username or organization |
-| `category` | One of the supported categories below |
-| `repo_url` | GitHub repository URL |
+### Submitting a Module
 
-### Optional Fields
-
-| Field | Description |
-|-------|-------------|
-| `version` | Semantic version string (e.g., "1.0.0") |
-| `icon` | Icon path or null |
-| `screenshot` | Screenshot URL or null |
-| `downloads` | Download count (maintained by registry) |
-| `tags` | Array of search keywords |
-
-## Categories
-
-- `system` - System monitoring (battery, memory, etc.)
-- `hardware` - Hardware info (CPU, GPU, disk, etc.)
-- `network` - Network related (speed, VPN, etc.)
-- `media` - Media players and controls
-- `weather` - Weather displays
-
+To submit a new module to the registry, please open an issue on [waybar-registry-api](https://github.com/jtaw5649/waybar-registry-api/issues).
