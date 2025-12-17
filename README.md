@@ -57,6 +57,3 @@ To add your module to the registry, submit a PR with an entry in `index.json`:
 - `media` - Media players and controls
 - `weather` - Weather displays
 
-## License
-
-MIT
