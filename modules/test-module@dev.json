@@ -8,6 +8,8 @@
   "icon": null,
   "screenshot": null,
   "repo_url": "https://github.com/jtaw5649/waybar-test-module",
-  "downloads": 0,
-  "tags": ["test", "development"]
+  "tags": [
+    "test",
+    "development"
+  ]
 }

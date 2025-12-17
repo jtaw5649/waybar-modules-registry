@@ -8,6 +8,10 @@
   "icon": null,
   "screenshot": null,
   "repo_url": "https://github.com/jtaw5649/waybar-network-speed",
-  "downloads": 12150,
-  "tags": ["network", "bandwidth", "speed", "monitoring"]
+  "tags": [
+    "network",
+    "bandwidth",
+    "speed",
+    "monitoring"
+  ]
 }

@@ -8,6 +8,10 @@
   "icon": null,
   "screenshot": null,
   "repo_url": "https://github.com/jtaw5649/waybar-cpu-temp",
-  "downloads": 8932,
-  "tags": ["cpu", "temperature", "hardware", "monitoring"]
+  "tags": [
+    "cpu",
+    "temperature",
+    "hardware",
+    "monitoring"
+  ]
 }

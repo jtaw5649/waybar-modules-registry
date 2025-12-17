@@ -11,16 +11,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-node@v4
         with:
-          python-version: '3.12'
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
 
       - name: Validate modules
-        run: python3 scripts/validate.py
+        run: npm run validate
 
-      - name: Check JSON formatting
-        run: |
-          for f in modules/*.json; do
-            python3 -c "import json; json.load(open('$f'))" || exit 1
-          done
+      - name: Run tests
+        run: npm test

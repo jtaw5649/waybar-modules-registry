@@ -8,6 +8,9 @@
   "icon": null,
   "screenshot": null,
   "repo_url": "https://github.com/jtaw5649/waybar-weather-wttr",
-  "downloads": 15420,
-  "tags": ["weather", "forecast", "temperature"]
+  "tags": [
+    "weather",
+    "forecast",
+    "temperature"
+  ]
 }

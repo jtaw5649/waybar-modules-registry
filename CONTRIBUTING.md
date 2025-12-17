@@ -31,8 +31,7 @@ Create `modules/{uuid}.json`:
   "icon": null,
   "screenshot": null,
   "license": "MIT",
-  "tags": ["keyword1", "keyword2"],
-  "downloads": 0
+  "tags": ["keyword1", "keyword2"]
 }
 ```
 
@@ -75,7 +74,6 @@ Open a PR against `master`.
 | `screenshot` | URL/null | Screenshot URL |
 | `license` | string/null | License identifier (MIT, GPL-3.0, etc.) |
 | `tags` | array | Up to 10 search keywords |
-| `downloads` | integer | Set to `0` for new modules |
 
 ### Valid Categories
 

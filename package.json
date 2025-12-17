@@ -1,0 +1,16 @@
+{
+  "name": "waybar-modules-registry",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "generate-sql": "node scripts/json-to-sql.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "vitest": "^2.1.0"
+  }
+}
