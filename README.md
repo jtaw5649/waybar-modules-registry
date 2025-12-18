@@ -1,3 +1,10 @@
+# ⚠️ DEPRECATED
+
+**This registry is deprecated.** Module submissions are now handled directly via the Waybar Manager application.
+Please see [Waybar Manager](https://github.com/jtaw5649/waybar-manager) for current instructions.
+
+---
+
 # Waybar Modules Registry
 
 The official module registry for [Waybar Manager](https://github.com/jtaw5649/waybar-manager).
