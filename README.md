@@ -1,3 +1,10 @@
+# ⚠️ DEPRECATED
+
+**This registry is deprecated.** Module submissions are now handled directly via the Waybar Manager application.
+Please see [Waybar Manager](https://github.com/jtaw5649/waybar-manager) for current instructions.
+
+---
+
 # Waybar Modules Registry
 
 The official module registry for [Waybar Manager](https://github.com/jtaw5649/waybar-manager).
@@ -9,21 +16,6 @@ The official module registry for [Waybar Manager](https://github.com/jtaw5649/wa
 3. Submit a pull request
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions.
-
-## API
-
-Modules are served via Cloudflare Workers API:
-
-```
-https://waybar-registry-api.jtaw.workers.dev/api/v1/modules
-```
-
-| Endpoint | Description |
-|----------|-------------|
-| `GET /api/v1/modules` | List all modules |
-| `GET /api/v1/modules/:uuid` | Get single module |
-| `GET /api/v1/modules/search?q=&category=` | Search modules |
-| `GET /api/v1/categories` | List categories |
 
 ## Module Format
 
